@@ -1,0 +1,27 @@
+{
+  "name": "alex-penfold-csi-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psyap5/alex-penfold-csi-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psyap5/alex-penfold-csi-test/issues"
+  },
+  "homepage": "https://github.com/psyap5/alex-penfold-csi-test#readme"
+}
