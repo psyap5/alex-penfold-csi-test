@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alex-penfold-csi-test", "alex-penfold-csi-test.csproj", "{6CC0E20A-C334-4534-A2DB-B041AD56B3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "tests\tests.csproj", "{690BFA3F-4BB8-40E2-A9BD-6260C6D61EB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CC0E20A-C334-4534-A2DB-B041AD56B3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC0E20A-C334-4534-A2DB-B041AD56B3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC0E20A-C334-4534-A2DB-B041AD56B3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC0E20A-C334-4534-A2DB-B041AD56B3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690BFA3F-4BB8-40E2-A9BD-6260C6D61EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690BFA3F-4BB8-40E2-A9BD-6260C6D61EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690BFA3F-4BB8-40E2-A9BD-6260C6D61EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690BFA3F-4BB8-40E2-A9BD-6260C6D61EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

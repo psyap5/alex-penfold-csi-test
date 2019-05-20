@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{690BFA3F-4BB8-40E2-A9BD-6260C6D61EB4}|Unit Tests">
+  <MonoDevelop.Ide.ItemProperties.alex-penfold-csi-test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tests/UnitTest1.cs">
+    <Files>
+      <File FileName="tests/UnitTest1.cs" Line="14" Column="23" />
+      <File FileName="tests/tests.csproj" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="alex-penfold-csi-test" expanded="True">
+            <Node name="alex-penfold-csi-test" expanded="True" />
+            <Node name="tests" expanded="True">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="alex-penfold-csi-test" expanded="True" selected="True">
+            <Node name="tests" expanded="True">
+              <Node name="Tests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
