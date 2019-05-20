@@ -47,4 +47,7 @@
     <Content Remove="tests\bin\Debug\netcoreapp2.1\tests.runtimeconfig.dev.json" />
     <Content Remove="tests\obj\project.assets.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>

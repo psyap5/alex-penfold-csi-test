@@ -18,13 +18,8 @@ using alex_penfold_csi_test;
 
 #line default
 #line hidden
-#line 2 "/Users/alexpenfold/Projects/alex-penfold-csi-test/Views/_ViewImports.cshtml"
-using alex_penfold_csi_test.Models;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d10aeadfa1568b7e6d163c55ffc68df7de8de16f", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c18855d7acf998ae60ad7f76b366ec826003fcd", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
