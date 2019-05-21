@@ -7,6 +7,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,9 +47,13 @@
     <Content Remove="tests\bin\Debug\netcoreapp2.1\tests.runtimeconfig.json" />
     <Content Remove="tests\bin\Debug\netcoreapp2.1\tests.runtimeconfig.dev.json" />
     <Content Remove="tests\obj\project.assets.json" />
+    <Content Remove="tests\obj\project.assets.json" />
+    <Content Remove="tests\obj\project.assets.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="Contexts\" />
   </ItemGroup>
 </Project>
