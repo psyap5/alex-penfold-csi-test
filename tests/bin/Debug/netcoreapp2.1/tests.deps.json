@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "25f3bd537e2bac23f658cd3e6b488e2d59fee7a0"
+    "signature": "73d3cc5e7d6bacc494503ed509f2f98762ad685b"
   },
   "compilationOptions": {},
   "targets": {
@@ -15,6 +15,12 @@
         },
         "runtime": {
           "tests.dll": {}
+        }
+      },
+      "AngularJS.Core/1.7.8": {},
+      "AngularJS.Route/1.7.8": {
+        "dependencies": {
+          "AngularJS.Core": "1.7.8"
         }
       },
       "Microsoft.CodeCoverage/15.8.0": {
@@ -1371,6 +1377,8 @@
       },
       "alex-penfold-csi-test/1.0.0": {
         "dependencies": {
+          "AngularJS.Core": "1.7.8",
+          "AngularJS.Route": "1.7.8",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.2"
         },
         "runtime": {
@@ -1384,6 +1392,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AngularJS.Core/1.7.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3SK4WdWiU1wrJglCUtUsQ/qoOWsJzA5gIVpYFG04qXUkeipDmjYKFrDokv17oOCF5AnOYxU14XMCWFobDKMvEQ==",
+      "path": "angularjs.core/1.7.8",
+      "hashPath": "angularjs.core.1.7.8.nupkg.sha512"
+    },
+    "AngularJS.Route/1.7.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3nsZuyblODnj14RRbxBc5nJk0NkihUL5ciLJjyqyiOJ/Y8slk9Wz6rYxRg7S7+Q/pma3twt7CQ6hGywBd4FAGw==",
+      "path": "angularjs.route/1.7.8",
+      "hashPath": "angularjs.route.1.7.8.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/15.8.0": {
       "type": "package",

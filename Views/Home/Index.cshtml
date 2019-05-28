@@ -1,1 +1,28 @@
-﻿
+﻿@**Html.Partial("/Views/Shared/Forms/_Form.cshtml")**@
+<div ng-app="sortArray">
+    <div ng-controller="formController as form" class="form-group">
+        <label for="inputArrayTextBox">Enter numbers separated by a space, comma or line break</label>
+        <textarea ng-model="form.title" class="form-control" id="inputArrayTextBox" rows="5"></textarea>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="radio-inline">
+                <input ng-model="form.checked" type="radio" value="Ascending" ng-click="uncheck($event)">Ascending
+            </label>
+            <label class="radio-inline">
+                <input ng-model="form.checked" type="radio" value="Descending" ng-click="uncheck($event)">Descending
+            </label>
+            {{form.checked}}
+        </div>
+        <button type="button" class="btn btn-primary btn-md" ng-click="form.sort()">Sort</button>
+        <textarea ng-model="form.result" class="form-control" id="sortedArrayTextBox" rows="5" readonly>{{form.result}}</textarea>
+
+    </div>
+
+    <div class="alert alert-warning">
+        <strong>Warning!</strong> Invalid characters were present and have been omitted from the result.
+    </div>
+
+    <div class="alert alert-danger">
+        <strong>Error!</strong> Please enter numbers separated by spaces, line-breaks or commas.
+    </div>
+
+</div>

@@ -1,45 +1,45 @@
 ﻿<Properties StartupConfiguration="{6CC0E20A-C334-4534-A2DB-B041AD56B3DA}|Default">
   <MonoDevelop.Ide.ItemProperties.alex-penfold-csi-test PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="webpack.config.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Index.cshtml">
     <Files>
-      <File FileName="alex-penfold-csi-test.csproj" Line="9" Column="11" />
-      <File FileName="wwwroot/css/main.css" Line="1" Column="1" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="11" Column="48" />
-      <File FileName="wwwroot/css/site.css" Line="1" Column="1" />
-      <File FileName="Styles/main.less" Line="2" Column="1" />
-      <File FileName="webpack.config.js" Line="13" Column="1" />
-      <File FileName="gulpfile.js" Line="10" Column="4" />
+      <File FileName="Scripts/controllers/FormController.ts" Line="23" Column="69" />
+      <File FileName="Scripts/controllers/IFormScope.ts" Line="4" Column="18" />
+      <File FileName="Scripts/controllers/IFormController.ts" Line="1" Column="1" />
+      <File FileName="Scripts/services/SortingService.ts" Line="18" Column="53" />
+      <File FileName="Views/Home/Index.cshtml" Line="14" Column="98" />
+      <File FileName="Views/Shared/Forms/_Form.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="alex-penfold-csi-test" expanded="True">
             <Node name="alex-penfold-csi-test" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Contexts" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="controllers" expanded="True" />
+                <Node name="functions" expanded="True" />
+                <Node name="models" expanded="True" />
+                <Node name="services" expanded="True" />
+              </Node>
               <Node name="tests" expanded="True">
-                <Node name="obj" expanded="True" />
+                <Node name="bin" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True">
+                  <Node name="Forms" expanded="True" />
+                </Node>
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="js" expanded="True" />
-              </Node>
-              <Node name="webpack.config.js" selected="True" />
             </Node>
-            <Node name="Tests" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="alex-penfold-csi-test" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

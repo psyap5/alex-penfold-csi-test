@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>alex_penfold_csi_test</title>
-
+    
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -36,15 +36,15 @@
             </div>
         </div>
     </nav>
-    
+
     <div class="container body-content">
         @RenderBody()
-        <footer>
-
-        </footer>
+        <footer></footer>
     </div>
 
-    <script src="~/js/main.build.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.js"></script>
+
+    <script src="~/js/main.js"></script>
 
     @RenderSection("Scripts", required: false)
 </body>

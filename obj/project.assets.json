@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "AngularJS.Core/1.7.8": {
+        "type": "package"
+      },
+      "AngularJS.Route/1.7.8": {
+        "type": "package",
+        "dependencies": {
+          "AngularJS.Core": "1.7.8"
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4495,6 +4504,33 @@
     }
   },
   "libraries": {
+    "AngularJS.Core/1.7.8": {
+      "sha512": "3SK4WdWiU1wrJglCUtUsQ/qoOWsJzA5gIVpYFG04qXUkeipDmjYKFrDokv17oOCF5AnOYxU14XMCWFobDKMvEQ==",
+      "type": "package",
+      "path": "angularjs.core/1.7.8",
+      "files": [
+        ".signature.p7s",
+        "angularjs.core.1.7.8.nupkg.sha512",
+        "angularjs.core.nuspec",
+        "content/Scripts/angular-mocks.js",
+        "content/Scripts/angular.js",
+        "content/Scripts/angular.min.js",
+        "content/Scripts/angular.min.js.map"
+      ]
+    },
+    "AngularJS.Route/1.7.8": {
+      "sha512": "3nsZuyblODnj14RRbxBc5nJk0NkihUL5ciLJjyqyiOJ/Y8slk9Wz6rYxRg7S7+Q/pma3twt7CQ6hGywBd4FAGw==",
+      "type": "package",
+      "path": "angularjs.route/1.7.8",
+      "files": [
+        ".signature.p7s",
+        "angularjs.route.1.7.8.nupkg.sha512",
+        "angularjs.route.nuspec",
+        "content/Scripts/angular-route.js",
+        "content/Scripts/angular-route.min.js",
+        "content/Scripts/angular-route.min.js.map"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "AIgEc1up4pvH8kXy+eG1x4Qfqd6piAq3yk11pveCQXWNkkYoiKdflSmcJZuWcerdMcAaoF0xC/mWGoTW4vF4Dg==",
       "type": "package",
@@ -12198,6 +12234,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "AngularJS.Core >= 1.7.8",
+      "AngularJS.Route >= 1.7.8",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.1.2",
@@ -12243,6 +12281,14 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "AngularJS.Core": {
+            "target": "Package",
+            "version": "[1.7.8, )"
+          },
+          "AngularJS.Route": {
+            "target": "Package",
+            "version": "[1.7.8, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",

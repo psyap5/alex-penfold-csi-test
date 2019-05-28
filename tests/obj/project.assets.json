@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "AngularJS.Core/1.7.8": {
+        "type": "package"
+      },
+      "AngularJS.Route/1.7.8": {
+        "type": "package",
+        "dependencies": {
+          "AngularJS.Core": "1.7.8"
+        }
+      },
       "Microsoft.CodeCoverage/15.8.0": {
         "type": "package",
         "compile": {
@@ -2065,6 +2074,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "AngularJS.Core": "1.7.8",
+          "AngularJS.Route": "1.7.8",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0"
         },
@@ -2078,6 +2089,33 @@
     }
   },
   "libraries": {
+    "AngularJS.Core/1.7.8": {
+      "sha512": "3SK4WdWiU1wrJglCUtUsQ/qoOWsJzA5gIVpYFG04qXUkeipDmjYKFrDokv17oOCF5AnOYxU14XMCWFobDKMvEQ==",
+      "type": "package",
+      "path": "angularjs.core/1.7.8",
+      "files": [
+        ".signature.p7s",
+        "angularjs.core.1.7.8.nupkg.sha512",
+        "angularjs.core.nuspec",
+        "content/Scripts/angular-mocks.js",
+        "content/Scripts/angular.js",
+        "content/Scripts/angular.min.js",
+        "content/Scripts/angular.min.js.map"
+      ]
+    },
+    "AngularJS.Route/1.7.8": {
+      "sha512": "3nsZuyblODnj14RRbxBc5nJk0NkihUL5ciLJjyqyiOJ/Y8slk9Wz6rYxRg7S7+Q/pma3twt7CQ6hGywBd4FAGw==",
+      "type": "package",
+      "path": "angularjs.route/1.7.8",
+      "files": [
+        ".signature.p7s",
+        "angularjs.route.1.7.8.nupkg.sha512",
+        "angularjs.route.nuspec",
+        "content/Scripts/angular-route.js",
+        "content/Scripts/angular-route.min.js",
+        "content/Scripts/angular-route.min.js.map"
+      ]
+    },
     "Microsoft.CodeCoverage/15.8.0": {
       "sha512": "cgcX2c/K35GrIjXkUwWop2GyG/YsLVo2wnL/2ESzOqr4V21FrrCVYuhpClv/bD80+rwXyIpyulqSX1NBNeAtMA==",
       "type": "package",

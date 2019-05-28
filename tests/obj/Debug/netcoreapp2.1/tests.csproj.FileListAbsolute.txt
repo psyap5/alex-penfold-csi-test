@@ -1,3 +1,5 @@
+/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/alex-penfold-csi-test.Views.dll
+/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/alex-penfold-csi-test.Views.pdb
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.dll
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.pdb
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/nunit.engine.netstandard.dll
@@ -7,14 +9,12 @@
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/tests.runtimeconfig.dev.json
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/tests.dll
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/tests.pdb
+/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/alex-penfold-csi-test.dll
+/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/alex-penfold-csi-test.pdb
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/obj/Debug/netcoreapp2.1/tests.csprojAssemblyReference.cache
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/obj/Debug/netcoreapp2.1/tests.csproj.CoreCompileInputs.cache
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/obj/Debug/netcoreapp2.1/tests.AssemblyInfoInputs.cache
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/obj/Debug/netcoreapp2.1/tests.AssemblyInfo.cs
+/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/obj/Debug/netcoreapp2.1/tests.csproj.CopyComplete
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/obj/Debug/netcoreapp2.1/tests.dll
 /Users/alexpenfold/Projects/alex-penfold-csi-test/tests/obj/Debug/netcoreapp2.1/tests.pdb
-/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/alex-penfold-csi-test.Views.dll
-/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/alex-penfold-csi-test.Views.pdb
-/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/alex-penfold-csi-test.dll
-/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/bin/Debug/netcoreapp2.1/alex-penfold-csi-test.pdb
-/Users/alexpenfold/Projects/alex-penfold-csi-test/tests/obj/Debug/netcoreapp2.1/tests.csproj.CopyComplete
